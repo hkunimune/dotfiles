@@ -1,8 +1,5 @@
 tap "homebrew/cask"
-tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
-tap "rcmdnk/file"
 cask_args appdir: "/Applications"
 
 brew "bat"
@@ -22,13 +19,14 @@ brew "python"
 brew "rename"
 brew "ripgrep"
 brew "sshuttle"
-brew "tokei"
 brew "tmux"
-brew "rcmdnk/file/brew-file"
+brew "tokei"
 
 cask "alfred"
 cask "alt-tab"
 cask "bettertouchtool"
+cask "charles"
+cask "chromedriver"
 cask "cmd-eikana"
 cask "dropbox"
 cask "firefox"
@@ -37,21 +35,24 @@ cask "google-chrome"
 cask "gpg-suite"
 cask "grammarly"
 cask "iterm2"
+cask "loopback"
 cask "mactex-no-gui"
 cask "mendeley"
+cask "microsoft-edge"
+cask "obs"
 cask "onyx"
 cask "r"
+cask "resolutionator"
+cask "skim"
 cask "slack"
 cask "visual-studio-code"
 cask "vivaldi"
-cask "vmware-fusion"
 cask "webex-meetings"
 cask "zoom"
 
 # App Store applications
 mas "1Password", id: 443987910
 mas "CotEditor", id: 1024640650
-mas "Display Menu", id: 549083868
 mas "Final Cut Pro", id: 424389933
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
