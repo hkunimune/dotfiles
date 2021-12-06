@@ -12,7 +12,7 @@ ln -s $path/.tmux.conf ~
 ln -s $path/.vimrc ~
 
 mkdir -p ~/.config/fish
-ln -s $path/.config/config.fish ~/.config/fish
+ln -s $path/.config/fish/config.fish ~/.config/fish
 
 mkdir ~/.vscode
 ln -s $path/.vscode/serif_small.css ~/.vscode
